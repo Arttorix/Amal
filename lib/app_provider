@@ -1,0 +1,29 @@
+FutureProvider<int>(
+  create: (context) => Future.value(42),
+  child: MyApp(),
+)
+
+Widget build(BuildContext context) {
+  final value = context.watch<int>();
+  return Text('$value');
+}
+FutureProvider<int?>(
+  initialValue: null,
+  create: (context) => Future.value(42),
+  child: MyApp(),
+)
+
+Widget build(BuildContext context) {
+
+  final value = context.watch<int?>();
+  return Text('$value');
+}
+ValueListenableBuilder<int>(
+  valueListenable: myValueListenable,
+  builder: (context, value, _) {
+    return Provider<int>.value(
+      value: value,
+      child: MyApp(),
+    );
+  }
+)

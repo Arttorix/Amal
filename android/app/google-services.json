@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "499835844808",
+    "project_id": "amal-17f46",
+    "storage_bucket": "amal-17f46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499835844808:android:b98fcebbdefeb6fe144dfd",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_amal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlQR1nG8QD2RpjwApuf-CMBOKqk5DzTNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
